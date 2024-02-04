@@ -1,0 +1,9 @@
+.contentMainContainer {
+    overflow-x: hidden;
+}
+
+.headingContent {
+    font-size: 3.5rem;
+    color: #22488d;
+    font-family: 'Concert One', sans-serif;
+}

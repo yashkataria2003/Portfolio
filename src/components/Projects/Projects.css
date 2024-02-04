@@ -1,0 +1,175 @@
+.projectMainContainer {
+    overflow-x: hidden;
+}
+
+.project_1_bg, .project_2_bg, .project_3_bg, .project_4_bg, .project_5_bg, .project_6_bg, .project_7_bg {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    border: 0.1rem solid #204898;
+}
+
+.headingProjects {
+    font-size: 3.5rem;
+    color: #22488d;
+    font-family: 'Concert One', sans-serif;
+}
+
+.project_1_Buttons {
+    display: none;
+}
+
+.project_1_Buttons:hover, .project_1_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_1_bg:hover {
+    cursor: pointer;
+}
+
+.project_1_bg:hover > .project_1_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_2_Buttons {
+    display: none;
+}
+
+.project_2_Buttons:hover, .project_2_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_2_bg:hover {
+    cursor: pointer;
+}
+
+.project_2_bg:hover > .project_2_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_3_Buttons {
+    display: none;
+}
+
+.project_3_Buttons:hover, .project_3_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_3_bg:hover {
+    cursor: pointer;
+}
+
+.project_3_bg:hover > .project_3_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_4_Buttons {
+    display: none;
+}
+
+.project_4_Buttons:hover, .project_4_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_4_bg:hover {
+    cursor: pointer;
+}
+
+.project_4_bg:hover > .project_4_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_5_Buttons {
+    display: none;
+}
+
+.project_5_Buttons:hover, .project_5_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_5_bg:hover {
+    cursor: pointer;
+}
+
+.project_5_bg:hover > .project_5_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_6_Buttons {
+    display: none;
+}
+
+.project_6_Buttons:hover, .project_6_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_6_bg:hover {
+    cursor: pointer;
+}
+
+.project_6_bg:hover > .project_6_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.project_7_Buttons {
+    display: none;
+}
+
+.project_7_Buttons:hover, .project_7_Buttons p:hover {
+    cursor: pointer;
+}
+
+.project_7_bg:hover {
+    cursor: pointer;
+}
+
+.project_7_bg:hover > .project_7_Buttons {
+    height: 4vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a0;
+    color: white;
+    border-radius: 0.5rem;
+}
