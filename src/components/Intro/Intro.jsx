@@ -33,7 +33,7 @@ const Intro = () => {
 
     return (
         <motion.div
-            className='flex justify-between items-center h-[100vh] w-[100%] px-4 bg-Yash_Bg_Center bg-cover bg-no-repeat max-md:w-[100vw] max-md:h-[90vh] max-sm:flex-col max-sm:gap-y-[0.5vh] max-sm:py-0 max-sm:min-h-max max-sm:mt-[4vh] max-sm:justify-around max-sm:bg-Yash_Bg_Verticle max-sm:bg-cover max-sm:bg-fixed'
+            className='flex justify-between items-center h-[100vh] w-[100%] px-4 bg-Yash_Bg_Center bg-cover bg-no-repeat max-md:w-[100vw] max-md:h-[90vh] max-sm:flex-col max-sm:gap-y-[0.5vh] max-sm:py-0 max-sm:min-h-max max-sm:mt-[4vh] max-sm:justify-around'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ transitionDuration: 1 }}
@@ -43,8 +43,8 @@ const Intro = () => {
             </div>
             <div className='flex flex-col justify-between items-center w-[30%] h-[50%] max-sm:w-[100vw] max-sm:gap-y-[5vh] max-xl:gap-y-[10vh]'>
                 <div className='flex flex-col justify-center items-center w-fit h-fit gap-y-[1vh] px-[1vw] py-[0.5vh]'>
-                    <h2 className=' text-[2.7rem] font-bold max-sm:text-white'>Yash Kumar</h2>
-                    <p className='text-[2.1rem] max-sm:text-white'>
+                    <h2 className=' text-[2.7rem] font-bold'>Yash Kumar</h2>
+                    <p className='text-[2.1rem]'>
                         <Typewriter
                             loop='true' onInit={(typewriter) => {
                                 typewriter
@@ -65,8 +65,8 @@ const Intro = () => {
                 </div>
                 <div className='flex justify-center items-center w-fit h-fit px-[1vw] py-[1vh] gap-x-[5vw] max-xl:flex-col max-xl:gap-y-[3vh]'>
                     <div className='flex flex-col justify-center items-center w-fit h-fit'>
-                        <p className='text-[1.7rem] max-sm:text-white'>{projectCount}+</p>
-                        <h2 className=' text-[1.5rem] max-sm:text-[1.3rem] font-bold max-sm:text-white'>Projects</h2>
+                        <p className='text-[1.7rem]'>{projectCount}+</p>
+                        <h2 className=' text-[1.5rem] max-sm:text-[1.3rem] font-bold'>Projects</h2>
                     </div>
                     <div className='flex flex-col justify-center items-center w-fit h-fit'>
                         <p className='text-[1.7rem]'>{internshipCount}</p>
