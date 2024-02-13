@@ -33,7 +33,7 @@ const Intro = () => {
 
     return (
         <motion.div
-            className='flex justify-between items-center h-[100vh] w-[100%] px-4 bg-Yash_Bg_Center bg-cover bg-no-repeat max-md:w-[100vw] max-md:h-[90vh] max-sm:flex-col max-sm:gap-y-[0.5vh] max-sm:py-0 max-sm:min-h-max max-sm:mt-[6.9vh] max-sm:justify-around max-sm:bg-Yash_Bg_Verticle max-sm:bg-cover max-sm:bg-fixed'
+            className='flex justify-between items-center h-[100vh] w-[100%] px-4 bg-Yash_Bg_Center bg-cover bg-no-repeat max-md:w-[100vw] max-md:h-[90vh] max-sm:flex-col max-sm:gap-y-[0.5vh] max-sm:py-0 max-sm:min-h-max max-sm:mt-[4vh] max-sm:justify-around max-sm:bg-Yash_Bg_Verticle max-sm:bg-cover max-sm:bg-fixed'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ transitionDuration: 1 }}
@@ -69,7 +69,7 @@ const Intro = () => {
                         <h2 className=' text-[1.5rem] max-sm:text-[1.3rem] font-bold max-sm:text-white'>Projects</h2>
                     </div>
                     <div className='flex flex-col justify-center items-center w-fit h-fit'>
-                        <p className='text-[1.7rem] max-sm:text-white'>{internshipCount}</p>
+                        <p className='text-[1.7rem]'>{internshipCount}</p>
                         <h2 className=' text-[1.5rem] max-sm:text-[1.3rem] font-bold'>Internship/ Training</h2>
                     </div>
                 </div>
